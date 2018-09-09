@@ -1,9 +1,9 @@
 #! python3
-# imgurSearch.py - Imgur Image Downloader
+# imgurScraper.py - Imgur Image Downloader
 # This is an imgur image scraper I made using requests and beautiful soup 4.
-# This was my first real image scraping program, and still needs some work.
-# Usage: python imgurSearch.py searchWord
-# Note: You can use "search words" in quotes if you want to pull images with multiple tags.
+# This was one of my first real image scraping programs, and still needs some work.
+# Usage: python imgurScraper.py searchWord
+# Note: You can use "search words" in quotes if you want it to download images with multiple tags.
 
 import requests, os, sys, bs4
 
